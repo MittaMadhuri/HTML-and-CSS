@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:hsl(47, 88%, 63%);
+}
+.box{
+      height:500px;
+      width:350px;
+      border: 1px solid black;
+      box-shadow: 10px 10px 10px black;
+      margin:  100px auto;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      border-top-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      background-color: white;
+      background-image: url("./assets/illustration-article.svg");
+      background-repeat: no-repeat;
+      background-position:center 10px;
+      background-size: 325px auto;
+      background-image-radius:15px;
+}
+.link1{
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    background-color:hsl(47, 88%, 63%);
+    border-radius:10px;
+    color: hsl(0, 0%, 7%);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top:225px;
+    margin-left: 10px;
+    font-family: "Figtree", sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:hsl(0, 0%, 7%);
+}
+.cont{
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    color:hsl(0, 0%, 7%)
+}
+.heading1{
+    font-size: 28px;
+    font-family: "Figtree", sans-serif;
+    margin-top: 15px;
+    font-weight: 800;
+    margin-left: 10px;
+    color:hsl(0, 0%, 7%)
+}
+pre{
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    margin-top: 25px;
+    margin-left: 10px;
+    color:hsl(0, 0%, 42%)
+}
+main{
+    margin-top:25px;
+    display: inline-block;
+    margin-left: 20px;
+}
+footer{
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 700;
+    margin-top: -40px;
+    margin-left: 60px;
+    
+    color:hsl(0, 0%, 7%);
+    
+}
